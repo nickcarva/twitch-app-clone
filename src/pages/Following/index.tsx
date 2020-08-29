@@ -1,12 +1,13 @@
 /* eslint-disable no-tabs */
 import React from 'react'
-import { View, FlatList } from 'react-native'
+import { FlatList } from 'react-native'
 
 import Header from '../../components/Header'
 import Heading from '../../components/Heading'
 import Title from '../../components/Title'
 import CategoryList from '../../components/CategoryList'
 import StreamList from '../../components/StreamList'
+import ChannelList from '../../components/ChannelList'
 
 import { Wrapper, Container, Main } from './styles'
 
@@ -46,7 +47,7 @@ const ComingSoon: React.FC = () => {
                 render: () => <Title>Offline Channels</Title>,
                 isTitle: true
             },
-            { key: 'C4', render: () => <View /> }
+            { key: 'C4', render: () => <ChannelList /> }
         ]
 
         const indices: number[] = []
