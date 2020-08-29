@@ -33,13 +33,5 @@ UI Clone (Mobile) - Twitch App
 
 ## Samples
 
-<img src="./.github/picture01.png" width="350" align="left" />
-<img src="./.github/picture02.png" width="350" />
-
-
-
-
-
-
-
-
+<img src="./.github/picture01.png" width="300" align="left" />
+<img src="./.github/picture02.png" width="300" />
